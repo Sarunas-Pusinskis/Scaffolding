@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/widthEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Plotis (metrais)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/heightEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Aukštis (metrais)"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Skaičiuoti" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="189dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="" />
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:rotation="0"
+    android:background="#693f7d"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:text="Spausk Mane" />
+
+    <Button
+        android:id="@+id/lengthInputButton"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:text="Suvesti ilgius" />
+
+    <Button
+        android:id="@+id/addToDatabaseButton"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:text="PILDYMAS"
+        android:layout_gravity="center" />
+
+</LinearLayout>
